@@ -128,7 +128,20 @@ body{
 }
 
 /*second section style*/
+.services-section{
+    background-color: #ffffff;
+    padding: 80px 20px;
+    color: #ffffff;
+}
 
+.services-section h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.services-section .card{
+    
+}
 
 
 /* mobile menu toggle*/
