@@ -128,19 +128,65 @@ body{
 }
 
 /*second section style*/
+body{
+    position: relative;
+   
+}
+
+.container{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .services-section{
-    background-color: #ffffff;
+    background-color: #1c1c1c;
     padding: 80px 20px;
     color: #ffffff;
 }
 
 .services-section h2{
     text-align: center;
-    font-size: 28px;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .services {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
 }
 
 .services-section .card{
-    
+    width: 330px;
+    text-align: center;
+    background: #1a1a1a;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.services-section .icon i{
+    font-size: 30px;
+    color: #ff0066;
+    margin-bottom: 10px;
+}
+
+.services-section .title{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.services-section p{
+    font-size: 14px;
+    color: #ccc;
 }
 
 
