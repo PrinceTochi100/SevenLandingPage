@@ -12,6 +12,7 @@ body{
 
 h2{
     font-size: 35px;
+    margin-bottom: 10px;
 }
 
 p{
@@ -133,6 +134,11 @@ p{
     width: 15%;
 }
 
+.social-links .fa-brands{
+    color: #ffffff;
+    font-size: 20px;
+}
+
 .pink-text {
     color: #c50b40;
 }
@@ -150,6 +156,7 @@ p{
     background-color: #c50b40;
     color: #ffffff;
     padding: 5px 10px 5px 10px;
+    margin-bottom: 15px;
 }
 
 .services h2{
@@ -169,39 +176,63 @@ p{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .scard{
     height: 230px;
     width: 230px;
-    background-color: #151515;
+    background-color: #2e2e2e;
     margin: 10px;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .title{
-    font-size: 110%;
-    font-weight: 500px;
-    padding-left: 55px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .icon{
     color: #c50b40;
     font-size: 24px;
-    padding-left: 110px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #2e2e2e;
+    border: solid 3px #686868;
 }
 
 .scard-container .scard:hover{
     background: #c50b40;
     transition: 1s;
     transform: scale(1.07);
+}
+
+.scard-container p{
+    font-size: 13px;
+    color: #c1c1c1;
+    margin: 0 20px 0 20px;
+}
+
+/* third section*/
+.history-section {
+   width: 1000px;
+   margin: 0 auto;
+   margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 
