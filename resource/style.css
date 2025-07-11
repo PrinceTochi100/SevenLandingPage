@@ -143,7 +143,60 @@ p{
     color: #c50b40;
 }
 
-/*second section style*/
+/* skill section style*/
+.skill-section{
+    width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.skill-container{
+    max-width: 800px;
+    margin: 100px auto;   
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+    background-color: #2e2e2e;
+}
+
+.skill{
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.skill-name{
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: inline-block;    
+}
+
+.progress-value{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 11px;
+}
+
+.progress-bar{
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    height: 7px;
+    overflow: hidden;    
+}
+
+.progress-fill{
+    height: 100%;
+    width: 0;
+    background-color: #c50b40;
+    border-radius: 25px;
+    transition: width 1.5s ease-in-out;
+}
+
+/*services section style*/
 .services{
     max-width: 1200px;
     margin: 0 auto;
