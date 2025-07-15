@@ -25,14 +25,3 @@ window.addEventListener('load', animateOnScroll);
 
 // animation for my history section
 
-function historyItem(){
-
-    const historyItem = document.querySelectorAll('History-item');
-    historyItem.forEach((item , index) => {
-
-        setTimeout(() => {
-
-            item.classList.add('animate');
-        }, index * 200);
-    });
-}
